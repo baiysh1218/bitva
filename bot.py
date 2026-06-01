@@ -25,7 +25,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # ─── Настройки ────────────────────────────────────────────────────────────────
-BOT_TOKEN: str = os.getenv("BOT_TOKEN", "")
+BOT_TOKEN: str = os.getenv("BOT_TOKEN", "8624969365:AAEWTC8aRsa-8DgKdCUE2C8Drot6oL6NDh0")
 # Укажи Telegram user_id админов через запятую в переменной ADMIN_IDS
 # Например: ADMIN_IDS=123456789,987654321
 ADMIN_IDS: set[int] = {767633350}
